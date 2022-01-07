@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "emptynegativey",
+  "version": "${version}",
+
+  "name": "EmptyNegativeY",
+  "description": "Keep my old chunks below y0 empty",
+  "authors": [
+    "Fallen_Breath"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fallen-Breath/EmptyNegativeY",
+    "sources": "https://github.com/Fallen-Breath/EmptyNegativeY"
+  },
+
+  "icon": "assets/emptynegativey/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "emptynegativey.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.1",
+    "minecraft": ">=1.18"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

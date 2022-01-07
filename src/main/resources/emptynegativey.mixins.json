@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.fallenbreath.emptynegativey.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChunkHeightAndBiomeFixMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
