@@ -31,7 +31,7 @@ public abstract class ChunkHeightAndBiomeFixMixin
 			require = 2,
 			index = 0
 	)
-	private static Object ItIsAlwaysAir(Object value)
+	private static Object ItIsAlwaysAirLikeASkyBlockSoNoNegativeYGenerationWillHappenHere(Object value)
 	{
 		return "minecraft:air";
 	}

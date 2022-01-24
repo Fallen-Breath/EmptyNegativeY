@@ -7,9 +7,6 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 String versionSuffix = ''
-if (System.getenv("BUILD_RELEASE") != "true") {
-	versionSuffix += '-SHAPSHOT'
-}
 String buildNumber = System.getenv("BUILD_ID")
 if (buildNumber != null) {
 	versionSuffix += '+build.' + buildNumber
@@ -17,7 +14,7 @@ if (buildNumber != null) {
 String fullModVersion = project.mod_version + versionSuffix
 
 archivesBaseName = project.archives_base_name
-version = 'mc' + project.minecraft_version + '-v' + fullModVersion
+version = 'v' + fullModVersion
 group = project.maven_group
 
 dependencies {
